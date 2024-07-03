@@ -5,9 +5,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server:dev": "nodemon --inspect src/index.ts",
-    "migrate": "prisma migrate dev",
+    "migrate:dev": "prisma migrate dev",
     "start": "tsc && node dist/src/server.js",
-    "dev": "nodemon --exec 'ts-node' ./src/server.ts"
+    "start:dev": "nodemon --exec 'ts-node' ./src/server.ts"
   },
   "keywords": [],
   "author": "",
